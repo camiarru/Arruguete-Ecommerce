@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.color{
+    background-color: aqua;
+}
+
+.color2{
+    background-color: orange;
+}
+
+.color3{
+    background-color: brown;
+}
+
+/* NAVBAR ---------------------------------------------------------- */
+
+.navbar{
+    background-color: #161616;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.ul_navbar{
+    display: flex;
+    flex-direction: row;
+    padding-right: 150px;
+}
+
+.li_navbar{
+    list-style: none;
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bolso_img{
+    width: 24px;
+    height: 28px;
+}
+
+/* DATAS ---------------------------------------------------------- */
+
+.datas{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;   
+    justify-content: center;
+}
+
+.datas_item, .datas_item-ultimo{
+    display: flex;   
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.datas_item{
+    border-right: 1px solid #000;
+}
+
+.icono_datas{
+    width: 50px;
+    height: 50px;
+}
+
+.icono_datas-s{
+    width: 40px;
+    height: 40px;
+}
+
+.texto-datas{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 15px;
+}
+
+/* BANNER ---------------------------------------------------------- */
+
+.banner_img{
+    width: 100%;
+}
+
+/* NOVEDADES ---------------------------------------------------------- */
+
+.novedades_titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+
+.texto_novedades{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
