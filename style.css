@@ -16,6 +16,7 @@
     background-color: brown;
 }
 
+
 /* NAVBAR ---------------------------------------------------------- */
 
 .navbar{
@@ -35,10 +36,14 @@
 
 .li_navbar{
     list-style: none;
-    color: white;
     padding-left: 6px;
     padding-right: 6px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.texto_navbar{
+    text-decoration: none;
+    color: white;
 }
 
 .bolso_img{
@@ -49,8 +54,8 @@
 /* DATAS ---------------------------------------------------------- */
 
 .datas{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 25px;
     display: flex;   
     justify-content: center;
 }
@@ -77,8 +82,8 @@
 }
 
 .texto-datas{
-    font-size: 22px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
     padding-left: 15px;
 }
 
@@ -88,16 +93,107 @@
     width: 100%;
 }
 
-/* NOVEDADES ---------------------------------------------------------- */
+/* PRODUCTOS ---------------------------------------------------------- */
 
-.novedades_titulo{
+.productos_titulo{
     display: flex;
     justify-content: center;
     padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.texto_productos{
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu_productos{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.producto{
+    margin-left: 18px;
+    margin-right: 18px;
+    border-right:  1px solid rgba(39, 39, 39, 0.295);
+    border-left:  1px solid rgba(39, 39, 39, 0.295);
+    border-bottom:  1px solid rgba(39, 39, 39, 0.295);
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.26);
+
+}
+
+.foto_producto{
+    width: 250px;
+    height: 350px;
+}
+
+.descripcion_producto{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto_producto{
+    font-size: 16px;
+    padding-top: 2px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.texto_precio-producto{
+    font-size: 22px;
+    padding-top: 2px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
-.texto_novedades{
-    font-size: 28px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* FOOTER ---------------------------------------------------------- */
+
+.footer{
+    background-color: #161616;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
+
+.texto_seguinos-footer{
+    font-size: 18px;
+    padding-top: 2px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.img_redes{
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+
+/* Seccion productos ---------------------------------------------------------- */
+
+
+
+
+
+/* .btn_agregar{
+    background-color: #4c56af; 
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+
+} */
